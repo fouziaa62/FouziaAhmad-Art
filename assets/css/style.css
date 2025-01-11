@@ -1,13 +1,52 @@
+body {
+    background-color: #f5f5dc; /* beige background */
+    color: #4b2e2e; /* dark brown text */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: #8b4513; /* saddle brown */
+    color: #f5f5dc; /* beige text */
+}
+
+.navbar {
+    background-color: #8b4513; /* saddle brown */
+}
+
+.navbar .nav-link {
+    color: #f5f5dc; /* beige text */
+}
+
+.navbar .nav-link:hover {
+    color: #d2b48c; /* tan */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4b2e2e; /* dark brown */
+}
+
 .imgs {
     width: 42px;
     height: 42px;
 }
 
+.carousel {
+    width: 100%; /* full width */
+    max-width: 70vw; /* max width of 70% of the viewport */
+    margin: 0 auto; /* center the carousel */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .button {
-    background-color: #D2B48C; /* Light brown color */
-    color: #8B4513; /* Dark brown color */
+    background-color: #d2b48c; /* tan */
+    color: #4b2e2e; /* dark brown */
     border: none;
-    border-radius: 15px; /* Round edges */
+    border-radius: 15px; /* round edges */
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -18,10 +57,11 @@
 }
 
 .button:hover {
-    background-color: #90EE90; /* Light green color */
+    background-color: #8b4513; /* saddle brown */
+    color: #f5f5dc; /* beige */
 }
 
-h1{
+h1 {
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
