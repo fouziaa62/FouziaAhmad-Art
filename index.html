@@ -15,118 +15,134 @@
 </head>
 <body>
     <header>
-        
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="assets/images/art.jpg" class="imgs"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav container justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Collection.html">Collection</a>
-                  </li>
-                  <li class="nav-item">
-                   <button class="button"> <a class="nav-link " href="contact.html"><strong>Contact</strong></a>
-                   </button>
-                  </li>
-                
-                </ul>
-              </div>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/art.jpg" class="imgs img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Collection.html">Collection</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary"><a class="nav-link text-white" href="contact.html"><strong>Contact</strong></a></button>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
         </nav>
     </header>
     <main>
-        <section id="home">
+        <section id="home" class="text-center my-5">
             <h2>Welcome to Fouzia Ahmad's Art</h2>
             <p>Discover the beauty of art through my collection.</p>
         </section>
-        <section id="gallery"  style="margin-top: 50px ;">
-            <h2 style="text-align: center;">Gallery</h2>
-            <div class="gallery-grid">
-              
+        <section id="gallery" class="my-5">
+            <h2 class="text-center">Gallery</h2>
+            <div class="gallery-grid row">
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/images/gallery1.jpg" class="card-img-top img-fluid" alt="Gallery Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Gallery Item 1</h5>
+                            <p class="card-text">Description of gallery item 1.</p>
+                            <a href="Abstract.html" class="btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/images/gallery2.jpg" class="card-img-top img-fluid" alt="Gallery Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Gallery Item 2</h5>
+                            <p class="card-text">Description of gallery item 2.</p>
+                            <a href="Potraits.html" class="btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card">
+                        <img src="assets/images/gallery3.jpg" class="card-img-top img-fluid" alt="Gallery Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Gallery Item 3</h5>
+                            <p class="card-text">Description of gallery item 3.</p>
+                            <a href="Beauties.html" class="btn btn-primary">View More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section>
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <section class="my-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/abs1.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Abstract</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/sl1.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Potraits</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/beauty1.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Beauties</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/images/abs1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Abstract</h5>
-                  
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/sl1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Potraits</h5>
-                  
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/beauty1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Beauties</h5>
-                  
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
         </section>
-        <section id="about justify-content-center">
-          <h2>About Me</h2>
+        <section id="about" class="text-center my-5">
+            <h2>About Me</h2>
             <p></p>
         </section>
-        <section>
+        <section class="my-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/images/artroom.jpg" class="img-fluid" alt="Fouzia Ahmad">
-                    </div>
-                    <div class="col-md-6">
-              
-            
-                     <h3>Fouzia Ahmad</h3>
-                        <p>Hi, I'm Fouzia Ahmad, an artist based on earth. I specialize in abstract art, portraits, and beauties. I have been painting for over 10 years and have showcased my work in various exhibitions.</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h3 class="text-center">Fouzia Ahmad</h3>
+                        <p>Hi, I'm Fouzia Ahmad, an artist based on earth. I specialize in abstract art, portraits, and beauties. I have been painting for over 20 years and have showcased my work in various exhibitions. My journey as an artist began at a young age, and over the years, I have honed my skills and developed a unique style that reflects my passion for creativity. Each piece of art I create is a reflection of my thoughts, emotions, and experiences. I believe that art has the power to connect people and evoke deep emotions, and I strive to achieve that through my work.</p>
                         <p>My inspiration comes from nature, emotions, and everyday life. I love to experiment with colors, textures, and techniques to create unique pieces of art.</p>
-                        <p>Feel free to explore my collection and get in touch if you have any questions or would like to purchase a painting.</p>
+                        <p>Feel free to explore my collection and get in touch if you have any questions or would like to have a painting.</p>
                     </div>
                 </div>
             </div>
         </section>
-       
     </main>
-    <footer style="background-color: #d2b48c; position: fixed; width: 100%; bottom: 0;">
-        <div class="container text-center py-3">
+    <footer class="bg-light py-3">
+        <div class="container text-center">
             <p>&copy; 2025 Fouzia Ahmad Art. All rights reserved.</p>
             <div>
                 <a href="https://facebook.com" target="_blank">
-                    <img src="assets/images/facebook-dark-brown.png" alt="Facebook" style="width: 30px; margin: 0 10px;">
+                    <img src="assets/images/facebook-dark-brown.png" alt="Facebook" class="img-fluid" style="width: 30px; margin: 0 10px;">
                 </a>
                 <a href="https://twitter.com" target="_blank">
-                    <img src="assets/images/twitter-dark-brown.png" alt="Twitter" style="width: 30px; margin: 0 10px;">
+                    <img src="assets/images/twitter-dark-brown.png" alt="Twitter" class="img-fluid" style="width: 30px; margin: 0 10px;">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img src="assets/images/instagram-dark-brown.png" alt="Instagram" style="width: 30px; margin: 0 10px;">
+                    <img src="assets/images/instagram-dark-brown.png" alt="Instagram" class="img-fluid" style="width: 30px; margin: 0 10px;">
                 </a>
             </div>
         </div>
